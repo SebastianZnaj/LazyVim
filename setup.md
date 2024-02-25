@@ -19,8 +19,19 @@ Toggle Terminal
 
 ### Tokyonight
 ~/.config/nvim/init.lua
-./pasted_image.png
+-------------------------------------------
+-- background colorscheme tokyonight
+require("tokyonight").setup()
+vim.cmd([[colorscheme tokyonight-night]])
+-------------------------------------------
 
 ### shellcheck i pyright
 $ sudo apt install shellcheck
 $ sudo snap install pyright --classic
+
+### Icons
+download Nerd Fonts
+https://www.nerdfonts.com/
+copy to ~/.lockal/share/fonts
+gcc => szybkie zakomentowanie linii
+
